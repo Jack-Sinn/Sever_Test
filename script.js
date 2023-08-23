@@ -36,5 +36,5 @@ document.addEventListener("DOMContentLoaded",()=>{
             highScoreList.appendChild(listItem);
         })
         .catch(error => console.error('Error submitting score', error));
-    })
-})
+    });
+});
